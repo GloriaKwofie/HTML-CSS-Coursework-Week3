@@ -8,7 +8,7 @@ nav {
 /*main {
     margin: 10px 40px;
 }*/
-.nav-link {
+.nav {
     color: white;
 }
 nav li {
@@ -33,9 +33,17 @@ button {
 section {
     margin-bottom: 40px;
 }
-.card-title {
+
+.welcome {
+    background-color: rgb(189, 119, 119);
+}
+h3 {
     text-align: right;
-    font-size: 90px;
+    font-size: 70px;
+
+}
+.wel {
+    font-size: 35px;
 }
 
 .card-text{
