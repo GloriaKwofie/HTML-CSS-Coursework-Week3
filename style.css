@@ -1,12 +1,12 @@
 /*  Add your styling here */
 nav {
-    font-size: 40px;
+    font-size: 30px;
     background-color: rgb(223, 194, 194);
     padding: 0 50px;
     padding-bottom: 20px;
 }
 main {
-    margin: 55px 50px;
+    margin: 20px 40px;
 }
 .sd-nav {
     background-color: rgb(223, 194, 194);
@@ -14,6 +14,14 @@ main {
     font-size: 100px;
     padding: 30PX 50px;
     
+}
+
+button {
+    width: 300px;
+    background-color: rgb(61, 53, 53);
+}
+section {
+    margin-bottom: 40px;
 }
 .card-title {
     text-align: right;
