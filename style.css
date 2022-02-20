@@ -1,7 +1,7 @@
 /*  Add your styling here */
 header .logo {
     background-color: rgb(223, 194, 194);
-    font-size: 60px;
+    font-size: 30px;
     padding-bottom: 30px;
     padding-top: 20px;
     margin-left: 40px;
@@ -20,13 +20,13 @@ header .logo {
 }
 
 main {
-    margin: 10px 40px;
+    margin: 10px 10px;
 }
 a {
     color: white;
 }
 nav li {
-    font-size: 60px;
+    font-size: 50px;
     border: 2px solid grey;
     margin: 0 40px;
     justify-content: space-evenly;
@@ -35,6 +35,7 @@ nav li {
 
 section {
     margin-bottom: 40px;
+    width: 100%;
 }
 
 .welcome {
@@ -54,9 +55,16 @@ h3 {
 
 .collage img {
     width: 100%;
+    margin-bottom: 20px;
 }
-footer {
-    margin-bottom: 30px;
+footer{
+    height: 500px;
+    margin-bottom: 40px;
     background-color: rgb(223, 194, 194);
-    padding: 0 20px;
+    padding: 0 160px;
+    padding-top: 40px;
+    justify-content: center;
+}
+footer li {
+    margin-bottom: 20px;
 }
