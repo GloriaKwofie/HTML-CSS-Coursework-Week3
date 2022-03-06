@@ -4,19 +4,20 @@ header .logo {
     font-size: 50px;
     padding-bottom: 30px;
     padding-top: 20px;
-    margin-left: 40px;
-    margin-right: 40px;
     width: 100%;
 }
 .nav {
     font-size: 40px;
-    margin: 40px 40px;
+    margin: 40px 10px;
     background-color:  rgb(223, 194, 194);
     padding: 20px 20px;
 }
 
 .best {
-    text-align:end;
+    text-align: right;
+    font-size: 25px;
+    padding-left: 100px;
+
 }
 
 main {
@@ -28,35 +29,62 @@ a {
 nav li {
     font-size: 50px;
     border: 2px solid grey;
-    margin: 0 40px;
+    margin: 0 20px;
     justify-content: space-evenly;
     background-color: rgb(197, 125, 125);
 }
 
-section {
+/*-------------main styling------*/
+
+.paragr-1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
     margin-bottom: 40px;
     width: 100%;
 }
+
+.first-pic {
+    width: 100%;
+    justify-content: center;
+}
+
 
 .welcome {
     background-color: rgb(224, 140, 140);
     padding: 0 35px;
     text-align: justify;
+    width: 100%;
 }
-h3 {
+h4 {
     text-align: right;
-    font-size: 80px;
+    font-size: 70px;
     padding: 0 35px;
 
 }
 .wel {
-    font-size: 45px;
+    font-size: 25px;
 }
 
-.collage img {
-    width: 100%;
-    margin-bottom: 20px;
+.cake-pics {
+    display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+  
+    
 }
+
+.pictures img {
+    width: 47%;
+    margin-left: 1px;
+    margin-right: 1px;
+    line-height: 1em;
+    margin-bottom: 11px;
+    margin-top: 15px;
+}
+
+
+
 footer{
     height: 500px;
     margin-bottom: 40px;
@@ -69,3 +97,110 @@ footer{
 footer li {
     margin-bottom: 20px;
 }
+
+
+
+/*----------media queries---*/
+
+
+@media screen and (min-width: 540px){
+    .paragr-1 {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin-bottom: 40px;
+        width: 100%;
+    }
+    
+    .first-pic {
+        width: 100%;
+    }
+    
+    
+    .welcome {
+        background-color: rgb(224, 140, 140);
+        padding: 0 35px;
+        text-align: justify;
+        width: 100%;
+    }
+    h4 {
+        text-align: right;
+        font-size: 70px;
+        padding: 0 35px;
+    
+    }
+    .wel {
+        font-size: 25px;
+    }
+    
+    .cake-pics {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        
+    }
+    
+    .pictures img {
+        width: 47%;
+        margin-left: 1px;
+        margin-right: 1px;
+        line-height: 1em;
+        margin-bottom: 11px;
+        margin-top: 15px;
+    }
+    
+}
+
+
+@media screen and (min-width: 900px){
+    .paragr-1 {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin-bottom: 40px;
+        width: 100%;
+    }
+    
+    .first-pic {
+        width: 47%;
+    }
+    
+    
+    .welcome {
+        background-color: rgb(224, 140, 140);
+        padding: 0 35px;
+        text-align: justify;
+        width: 47%;
+    }
+    h4 {
+        text-align: right;
+        font-size: 70px;
+        padding: 0 35px;
+    
+    }
+    .wel {
+        font-size: 25px;
+    }
+    
+    .cake-pics {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+
+        
+    }
+    
+    .pictures img {
+        width: 23%;
+        margin-left: 1px;
+        margin-right: 1px;
+        line-height: 1em;
+        margin-bottom: 11px;
+        margin-top: 15px;
+    }
+
+}
+
+
+
+
